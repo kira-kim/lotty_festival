@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="resource/css/style.css">
+  <script src="resource/js/jquery-3.2.1.min.js"></script>
+  <script src="resource/js/ajax.validate.js"></script>
+  <script src="resource/js/script.js"></script>
+  <!-- Swiper JS -->
+  <script src="resource/js/swiper-bundle.min.js"></script>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="resource/css/swiper-bundle.min.css"/>
+
+</head>
+<body>
+  <div class="campaign_2109">
+    <div class="popup_01">
+      <div class="start_btn">
+        <a href="#none" onclick="window.open('https://sbirt.kcgp.or.kr/cpgi/?c=ES3017','new','scrollbars=yes,resizable=no width=640 height=670, left=100%,top=50%');return false">
+          <img src="resource/images/pc/stt_btn.png" alt="" class="start_btn" onclick="popupchange()">
+        </a>
+      </div>
+    </div>
+    <!-- popup_01 end -->
+    <div class="popup_02">
+      <!-- Swiper -->
+      <div class="slide">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="resource/images/pc/toon01.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="resource/images/pc/toon02.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="resource/images/pc/toon03.jpg" alt=""></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <div class="start_btn">
+        <a href="#none" onclick="window.open('https://sbirt.kcgp.or.kr/cpgi/?c=ES3017','new','scrollbars=yes,resizable=no width=640 height=670, left=100%,top=50%');return false">
+          <img src="resource/images/pc/stt_btn.png" alt="" class="start_btn">
+        </a>
+      </div>
+      <!-- start_btn end -->
+      <div class="input_flex">
+        <input inputmode="numeric" pattern="[0-9]*" class="test_score" onclick="testScoreClick()">
+        <input type="text" class="test_answer" onclick="testAnswerClick()">
+        <img src="resource/images/pc/attend_btn.jpg" alt="" class="attend" onclick="attendClick()">
+      </div>
+      <!-- input_flex end -->
+    </div>
+    <!-- popup_02 end -->
+    <div class="privacy_agree_bg">
+      <div class="privacy_agree">
+          <div class="agree_bg">
+              <div class="privacy_input">
+                  <div>
+                      <img src="resource/images/pc/agree_txt.png" alt="">
+                  </div>
+                  <div>
+                      <input type="text" class="name">
+                      <input type="text" inputmode="numeric" pattern="[0-9]*" class="number">
+                      <input type="email" class="mail">
+                  </div>
+              </div>
+              <div class="agree_btn">
+                  <img src="resource/images/pc/agree_btn.png" alt="" class="agree" onclick="agreeClick()">
+                  <img src="resource/images/pc/reject_btn.png" alt="" class="reject" onclick="rejectClick()">
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- privacy_agree end -->
+    <div class="attend_popup_bg">
+        <div class="attend_popup">
+          <div class="attend_bg">
+              <img src="resource/images/pc/end_btn.png" alt="" class="attend_close" onclick="closeClick()">
+          </div>
+      </div>
+    </div>
+    <!-- attend popup end -->
+  </div>
+
+
+
+  <script>
+    var swiper = new Swiper(".campaign_2109 .mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>

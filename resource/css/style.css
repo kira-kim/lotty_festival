@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+.campaign_2109 .popup_01{
+  background-image: url('../images/pc/popup1_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 1400px;
+  margin: 0 auto;
+  height: 5035px;
+  padding: 2805px 0 2100px 0;
+}
+.campaign_2109 .popup_01 .start_btn a {
+  width: 488px;
+  margin: 0 auto;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campaign_2109 .popup_02{
+  background-image: url('../images/pc/popup2_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  min-width: 1400px;
+  margin: 0 auto;
+  height: 7563px;
+  display: none;
+  position: relative;
+  padding: 2577px 0 2087px 0;
+}
+.campaign_2109 .popup_02 .slide{
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 1255px;
+}
+.campaign_2109 .popup_02 .swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.campaign_2109 .popup_02 .swiper-slide img {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.campaign_2109 .popup_02 .slide .swiper-button-next{
+  background: url('../images/pc/btn_next.png');
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+}
+.campaign_2109 .popup_02 .slide .swiper-button-prev{
+  background: url('../images/pc/btn_prev.png');
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+}
+.campaign_2109 .popup_02 .slide .swiper-button-next::after,
+.campaign_2109 .popup_02 .slide .swiper-button-prev::after{
+  display: none;
+}
+
+.campaign_2109 .popup_02 .start_btn a {
+  width: 488px;
+  margin: 0 auto;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campaign_2109 .popup_02 .input_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 93px;
+}
+.campaign_2109 .popup_02 .input_flex .test_score {
+  background-image: url('../images/pc/test_score_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.campaign_2109 .popup_02 .input_flex .test_answer {
+  background-image: url('../images/pc/test_answer_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.campaign_2109 .popup_02 .input_flex input {
+  width: 369px;
+  height: 118px;
+  border: #ff7f00 5px solid;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  color: #808080;
+  outline: none;
+  margin-right: 9px;
+}
+.campaign_2109 .popup_02 .input_flex .attend{
+  width: 239px;
+  height: 128px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+.campaign_2109 .privacy_agree_bg{
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  z-index: 999;
+}
+.campaign_2109 .privacy_agree{
+  margin-top: 100px;
+  width: 100%;
+}
+.campaign_2109 .privacy_agree .agree_bg{
+  background-image: url('../images/pc/agree_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 1200px;
+  height: 875px;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.campaign_2109 .privacy_agree .privacy_input{
+  display: flex;
+  justify-content: center;
+}
+.campaign_2109 .privacy_agree .privacy_input>div{
+  margin-top: 208px;
+}
+.campaign_2109 .privacy_agree .privacy_input>div img{
+  width: 99px;
+  height: 205px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.campaign_2109 .privacy_agree .privacy_input>div input{
+  display: flex;
+  flex-direction: column;
+  width: 612px;
+  border: none;
+  height: 60px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-left: 20px;
+  box-shadow: 0 5px #e6e6e6;
+}
+.campaign_2109 .privacy_agree .privacy_input>div input:focus{
+  outline: none;
+}
+.campaign_2109 .privacy_agree .agree_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campaign_2109 .privacy_agree .agree_btn img{
+  cursor: pointer;
+  width: 237px;
+  height: 86px;
+  margin-top: 313px;
+}
+.campaign_2109 .privacy_agree .agree_btn .agree{
+  margin-right: 30px;
+}
+
+
+
+
+.campaign_2109 .attend_popup_bg{
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.campaign_2109 .attend_popup{
+  margin-top: 200px;
+  width: 100%;
+}
+.campaign_2109 .attend_popup .attend_bg{
+  background-image: url('../images/pc/close_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 1136px;
+  height: 514px;
+  margin: 0 auto;
+  z-index: 999;
+}
+.campaign_2109 .attend_popup .attend_bg .attend_close{
+  width: 257px;
+  margin: 0 438px;
+  height: 93px;
+  cursor: pointer;
+  margin-top: 395px;
+}
+
+
+
+
+.layer-open{
+  overflow:hidden;    
+}
+
